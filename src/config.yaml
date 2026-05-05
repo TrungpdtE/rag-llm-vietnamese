@@ -1,0 +1,16 @@
+domain: "biomedical_qa"
+paths:
+  kb_dir: "data/kb"
+  train_path: "data/processed/train.jsonl"
+  test_path: "data/processed/test.jsonl"
+  vectorstore_dir: "outputs/vectorstore"
+  predictions_dir: "outputs/predictions"
+rag:
+  chunk_size: 512
+  chunk_overlap: 64
+  embedding_model: "intfloat/multilingual-e5-base"
+  top_k: 5
+llm:
+  base_model: "Qwen/Qwen2.5-1.5B-Instruct"
+  max_new_tokens: 256
+  temperature: 0.2

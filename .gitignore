@@ -1,0 +1,11 @@
+data/
+outputs/
+checkpoints/
+*.sqlite
+*.db
+*.faiss
+*.npz
+*.pt
+*.bin
+*.safetensors
+.env
