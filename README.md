@@ -102,4 +102,3 @@ streamlit run src/demo/app.py
 - README nên ghi rõ: nguồn dữ liệu, license, cấu hình thực nghiệm, kết quả.
 
 ---
-Nếu bạn muốn đổi domain (luật, hành chính, quy chế trường) chỉ cần thay `data/kb/` và bộ QA tương ứng.
